@@ -1,10 +1,3 @@
-# gets temperature
-temp = 36.2
-
-# round the temp
-temp = temp.__round__()
-
-
 # checks the daily status
 
 def daily_status(t):
@@ -18,7 +11,3 @@ def daily_status(t):
         return "warm"
     else:
         return "hot"
-
-
-print(temp)
-print(daily_status(temp))
